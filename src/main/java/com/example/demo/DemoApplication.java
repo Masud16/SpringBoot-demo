@@ -16,21 +16,21 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	@GetMapping("/hello")
-	public List<String> hello(){
-		return List.of("hello" ,"masud");
-	}
-	@GetMapping("/hello/student")
-	public List<Student> students(){
-		return List.of(
-				new Student(
-						8L,
-						"Masud",
-						"masud@gmail.com",
-						LocalDate.of(1999, Month.NOVEMBER,11),
-						23
-				)
-		);
-	}
+//	@GetMapping("/hello")
+//	public List<String> hello(){
+//		return List.of("hello" ,"masud");
+//	}
+//	@GetMapping("/hello/student")
+//	public List<Student> students(){
+//		return List.of(
+//				new Student(
+//						8L,
+//						"Masud",
+//						"masud@gmail.com",
+//						LocalDate.of(1999, Month.NOVEMBER,11),
+//						23
+//				)
+//		);
+//	}
 
 }
